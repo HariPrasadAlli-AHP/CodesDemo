@@ -11,7 +11,7 @@ public class BrowserLaunch {
 	public void browsermethod() {
 		
 		
-		WebDriver driver = new ChromeDriver();
+		
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
 		driver.quit();
