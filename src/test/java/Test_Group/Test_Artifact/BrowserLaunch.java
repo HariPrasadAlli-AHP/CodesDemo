@@ -10,12 +10,6 @@ public class BrowserLaunch {
 	@Test
 	public void browsermethod() {
 		
-		
-		
-		driver.manage().window().maximize();
-		driver.get("https://www.facebook.com/");
-		driver.quit();
-		System.out.println("Successfull");
 	}
 
 }
